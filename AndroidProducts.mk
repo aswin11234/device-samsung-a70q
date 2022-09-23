@@ -17,9 +17,7 @@
 #
 
 PRODUCT_MAKEFILES := \
-     $(LOCAL_DIR)/omni_a70q.mk
+     $(LOCAL_DIR)/twrp_a70q.mk
      
 COMMON_LUNCH_CHOICES := \
-    omni_a70q-user \
-    omni_a70q-userdebug \
-    omni_a70q-eng
+    twrp_a70q-eng
