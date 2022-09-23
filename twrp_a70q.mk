@@ -27,12 +27,11 @@ $(call inherit-product, device/samsung/a70q/device.mk)
 
 # Inherit some common Omni stuff.
 $(call inherit-product, vendor/omni/config/common.mk)
-$(call inherit-product, vendor/omni/config/gsm.mk)
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := a70q
-PRODUCT_NAME := omni_a70q
+PRODUCT_NAME := twrp_a70q
 PRODUCT_BRAND := samsung
 PRODUCT_MODEL := SM-A705
 PRODUCT_MANUFACTURER := samsung
-PRODUCT_RELEASE_NAME := a70q
+
